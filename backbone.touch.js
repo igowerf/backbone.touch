@@ -6,12 +6,12 @@
 
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
-        define(['underscore', 'backbone'], function(){
+        define(['lodash', 'backbone'], function(){
             return factory.apply(window, arguments);
         });
     } else if (typeof module === 'object' && module.exports) {
         // NodeJS.
-        module.exports = factory.call(window, require('underscore'), require('backbone'));
+        module.exports = factory.call(window, require('lodash'), require('backbone'));
     } else {
         // Browser globals
         factory.call(window, window._, window.Backbone);

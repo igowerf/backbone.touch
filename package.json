@@ -1,5 +1,5 @@
 {
-  "name": "backbone.touch",
+  "name": "backbone.touch.lodash",
   "description": "Enable faster click events on touch devices for Backbone views.",
   "version": "0.4.2",
   "homepage": "https://github.com/nervetattoo/backbone.touch",
